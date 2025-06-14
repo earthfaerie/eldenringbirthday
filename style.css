@@ -42,6 +42,15 @@ p {
     font-family:'Rakkas', serif;
 }
 
+@media (max-width:500px) {
+  button  {
+    width:50%;
+  }
+  input {
+    width: 50%;
+  }
+}
+
 input {
     display: block;
     margin-left: auto;
