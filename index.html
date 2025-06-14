@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>💫 elden ring horoscope 💫</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Rakkas&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <h1>✩⋆˙ elden ring horoscope ⋆｡✩</h1>
+  <p>have you ever wondered which weapon represents <br>the way the stars
+aligned on your birthday? look no further...</p>
+   <input type="date" id="birthday" /> <br> <br>
+  <button onclick="goToResult()">what's my weapon?</button>
+
+  <script>
+    function goToResult() {
+      const birthday = document.getElementById('birthday').value;
+      if (!birthday) return alert("enter your birthday, tarnished");
+
+      // Redirect to result page with birthday in URL
+      window.location.href = `public/result.html?birthday=${encodeURIComponent(birthday)}`;
+    }
+  </script>
+<br>
+<br>
+<img src="./assets/images/potofgreed.gif" width="100" height="100"> </img>
+</body>
+</html>
