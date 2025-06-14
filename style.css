@@ -83,9 +83,21 @@ button {
   h2 {
     font-size: 2rem;
   }
+  h4 {
+    font-size: 1.2rem; 
+  }
   p {
     font-size: 1.5rem;
   }
+}
+
+#weaponResult {
+  color: #e0e0de;
+  font-family: 'Book Antiqua', serif;
+  font-size: 1.5rem;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
 }
 
 img {
