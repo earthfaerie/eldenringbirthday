@@ -42,15 +42,6 @@ p {
     font-family:'Rakkas', serif;
 }
 
-@media (max-width:500px) {
-  button  {
-    width:50%;
-  }
-  input {
-    width: 50%;
-  }
-}
-
 input {
     display: block;
     margin-left: auto;
@@ -77,6 +68,24 @@ button {
     border: 3px solid rgb(227, 169, 23);
     background-color: #1c1a21;
     color: rgb(227, 169, 23);
+}
+
+@media (max-width:500px) {
+  button  {
+    width:50%;
+  }
+  input {
+    width: 50%;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
 }
 
 img {
