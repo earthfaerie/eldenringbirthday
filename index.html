@@ -11,8 +11,8 @@
 </head>
 <body>
   <h1>✩⋆˙ elden ring horoscope ⋆｡✩</h1>
-  <p>have you ever wondered which weapon represents <br>the way the stars
-aligned on your birthday? look no further...</p>
+  <p style="display: block; margin: auto; max-width:30%;">have you ever wondered which weapon represents the way the stars
+aligned on your birthday? look no further...</p><br>
    <input type="date" id="birthday" /> <br> <br>
   <button onclick="goToResult()">what's my weapon?</button>
 
@@ -21,12 +21,11 @@ aligned on your birthday? look no further...</p>
       const birthday = document.getElementById('birthday').value;
       if (!birthday) return alert("enter your birthday, tarnished");
 
-      // Redirect to result page with birthday in URL
       window.location.href = `public/result.html?birthday=${encodeURIComponent(birthday)}`;
     }
   </script>
 <br>
 <br>
-<img src="./assets/images/potofgreed.gif" width="100" height="100"> </img>
+<img src="./assets/images/potofgreed.gif" scale="1" width="100" height="100"></img>
 </body>
 </html>
