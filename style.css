@@ -25,13 +25,13 @@ h3 {
     text-align: center;
 }
 
-h4 {
+h4 { 
+    display: inline-block;
     color: #e4e3e3;
     font-family: 'Book Antiqua', serif;
     font-size: 1.5rem;
-    margin-left: 50px;
-    margin-right: 50px;
     text-align: center;
+    width: 60%;
 }
 
 
@@ -119,10 +119,10 @@ li {
     font-size: 2rem;
   }
   h4 {
+    display: inline-block;
     font-size: 1.2rem; 
     text-align: center;
-    margin-left: 1px !important;
-    margin-right: 1px !important;
+    width: 80%;
   }
   p {
     font-size: 1.5rem;
