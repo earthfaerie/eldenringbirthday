@@ -83,6 +83,9 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    scale: 1.3;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 weapon.img {
@@ -127,4 +130,7 @@ li {
   p {
     font-size: 1.5rem;
 }
+img {
+scale: 1.1;
+  }
 }
