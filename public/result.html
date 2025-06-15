@@ -10,7 +10,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <h1>your astrological match is...</h1>
+  <h1>your astrological match&nbsp;is...</h1>
   <div id="weaponResult">Loading...</div>
 
   <script>
@@ -85,14 +85,19 @@
 
       document.getElementById('weaponResult').innerHTML = `
         <h2>${weapon.name}</h2>
-        <img src="${weapon.image}" alt="${weapon.name}" style="max-width:200px;" />
+        <img src="${weapon.image}" alt="${weapon.name}";" />
         <h3>Type: ${weapon.category}</h3>
         <h4>${weapon.description}</h4>
-        <p><button><a href="../index.html">try another birthday ☺</a></button></p>
+      <div style="display: flex;
+    justify-content: center;
+    align-items: center;">
+        <p style="width: 100%; min-width: 400px"><button><a href="../index.html">try another birthday&nbsp;☺</a></button></p>
+      </div>
       `;
     }
 
     showWeapon();
   </script>
+<br>
 </body>
 </html>
